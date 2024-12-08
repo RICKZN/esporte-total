@@ -1,0 +1,311 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1{
+    color: #000000;
+  }
+  
+  body {
+    font-family: Jacques Francois Shadow;
+    line-height: 1.6;
+    background-color: white;
+    
+  }
+  .topo{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+  }
+  #divBusca{
+    background-color:#ffffff;
+    border:solid 1px;
+    border-radius:15px;
+    width:600px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:normal;
+    font-size:18px;
+    border:none;
+    height:52px;
+    width:560px;
+
+  }
+  #btnBusca{
+    width: 30px;
+    height: 10px;
+  }
+section{
+
+  width: 80%;
+  margin: 10px auto;
+}
+img{
+  width: 350px;
+  height: 450px;
+ 
+}
+
+.logo2{
+  width: 350px;
+  height: 350px;
+
+
+}
+.top{
+  width: 75px;
+  height: 75px;
+  display: flex;
+ align-items: center;
+
+}
+.image{
+  background-color: rgb(235, 235, 235);
+  padding: 15px;
+}
+
+h2{
+  color: #531717;
+}
+h3{
+ margin: 0 auto;
+ border: #FDF0D5;
+padding: 10px;
+background-color: #800909;
+border-radius: 20px;
+margin-left: 65px;
+box-sizing: content-box;
+width: 150px;
+height: 50px;
+}
+
+.ebd{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.itens{
+  display: flex;
+flex-direction: column;
+width: 200px;
+align-items: center;
+}
+.itens > img{
+  background-color: #FDF0D5;
+  width: 100px;
+  height: 100px;
+  border-radius: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+.itens > h1{
+  display: flex;
+  justify-content: flex-end;
+ font-family: Jacques Francois Shadow;
+
+
+}
+
+
+menu{
+  display: flex;
+ justify-content: space-evenly;
+  margin: 0 auto;
+  
+}
+ul{
+
+  margin-bottom: 5px;
+  padding: 7px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+ul > a{
+  text-decoration: none;
+  color: #811327;
+  background-color: #f4f4f4;
+  width: 100px; 
+  padding: 7px;
+  border-radius: 20px;
+}
+a{
+  text-decoration: none;
+  color: #811327;
+  background-color: #d6d4d4;
+  width: 100px; 
+ 
+}
+.Inicio{
+  background-color: #000000;
+  padding: 7px;
+  border-radius: 20px;
+}
+.edu{
+  width: 500px;
+  height: 350px;
+  display: flex;
+  text-align: left;
+  margin: 10px 100px;
+}
+
+a:hover{
+background-color:#d61a8e ;
+}
+td{
+  color: #531717;
+}
+.historia{
+  background-color: white;
+}
+
+  .container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+  }
+  
+ 
+  header {
+    background-color:#FDF0D5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 10px solid #811327;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    background-image: url("img/fundo.jpg");
+  }
+  .start{
+    margin-top: 10px auto;
+  }
+.direita{
+  text-align: right;
+}
+.esquerda{
+  text-align: left;
+}
+.baixo{
+  text-align: end;
+}
+
+  .btn2{
+    color: #8a1e3d;
+    background-color: #f1c3d0;
+    padding: 7px;
+    text-decoration: none;
+  }
+
+  
+ .oferta{
+  background-color: #dadada;
+  
+ }
+ .com {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px; 
+}
+
+.column {
+  width: 40%;
+  padding: 30px;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+}
+.column2 {
+  width: 40%;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.column2 img{
+  width: 100px;
+  height: 100px;
+}
+
+.column img{
+  width: 100px;
+  height: 100px;
+
+}
+.ct{
+
+  vertical-align:super;
+ 
+}
+
+
+p {
+  text-align: justify; 
+  line-height: 1.5; 
+}
+
+  
+ footer {
+  background-color: #422828;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  margin-top: 35px;
+}
+
+footer img {
+  width: 50px;
+  height: auto;
+  margin: 5px;
+}
+
+.patrocinados {
+text-align: center;
+margin: 0 auto;
+border: #FDF0D5;
+padding: 10px;
+display: flex;
+font-size: medium;
+justify-content: end;
+flex-direction: column;
+border-radius: 20px;
+margin-left: 65px;
+box-sizing: content-box;
+width: 150px;
+height: 50px;
+}
+
+.Contatos img:hover{
+  background-color: #b8b5b5;
+}
+
+
+.times{
+  background-color: #c47373;
+}
+
+h4{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.logo {
+  color: #fff;
+  font-weight: bold;
+}
+
+
+footer p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+  
